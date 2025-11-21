@@ -1,0 +1,137 @@
+/* ==================== 全域樣式設定 ==================== */
+*{
+   margin:0px; /* 移除所有預設外邊距 */
+   padding: 0px; /* 移除所有預設內邊距 */
+   box-sizing: border-box; /* 邊框計算方式為border-box (尺寸包含邊框和內邊距) */
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* 設定全域字體 */
+}
+/* ==================== 頁面背景設定 ==================== */
+body{
+    display:flex; /* 使用 Flexbox 布局 */
+    justify-content:center; /* 水平居中內容 */
+    align-items:center; /* 垫直居中內容 */
+    background-image: url('cat.jpg') ; /* 設定背景圖片 */
+    background-position: center; /* 背景圖片位置居中 */
+    min-height: 100vh; /* 最小高度為整个視口高度 */
+}
+
+/* ==================== 標題樣式 ==================== */
+.box1 h1{
+    color: red; /* 文字樣色為紅色 */
+    font-size: 36px; /* 標題字型大小為 36px */
+    text-align: center; /* 文字水平居中 */
+}
+/* ==================== 主容器樣式 ==================== */
+.box1{
+    width:420px; /* 容器寬度為 420px */
+    background-color:peachpuff; /* 背景顯暖模秘寶色 */
+    border-radius: 10px; /* 邊角彈性半徑為 10px */
+    padding: 30px 40px; /* 內歫距（上下 30px，左右 40px） */
+    border: 3px solid rgba(255, 255, 255, .3); /* 樹辣白艴半透水樹辣邊框 */
+}
+/* ==================== 輸入框容器樣式 ==================== */
+.box1 .box2{
+    position: relative; /* 相對定位，作為幾何參考框 */
+    width: 100%; /* 容器寬度為父元素的 100% */
+    height: 50px; /* 容器高度為 50px */
+    margin:30px 0px; /* 外歫距（上下 30px，左右 0px） */
+}
+/* 輸入框樣式 */
+.box2 input{
+    width: 100%; /* 輸入框寬度為父容器的 100% */
+    height: 100%; /* 輸入框高度為父容器的 100% */
+    background: transparent; /* 背景透明 */
+    outline: none; /* 移除默認的膨減訪源 */
+    border: 2px solid rgba(255,255,255,.2); /* 白色半透水樹辣邊框 2px */
+    border-radius: 40px; /* 邊角彈性半徑為 40px (丢丸形) */
+    font-size: 16px; /* 文字大小 */
+    color:blue; /* 文字更記錯色 */
+    padding: 20px 45px 20px 20px; /* 內歫距 (上 20px、右 45px、下 20px、左 20px) */
+}
+
+/* 輸入框提示文字樣式 */
+.box2 input::placeholder{
+    color: chocolate; /* 提示文字会洋樹辣色 */
+}
+/* 輸入框內圖標樣式 */
+.box2 i{
+    position: absolute; /* 絕對定位 */
+    right: 20px; /* 距離右邊 20px */
+    top: 50%; /* 距離頂邊 50% (棚粗距离) */
+    transform: translateY(-40%); /* 市直方向向上平移 -40% （居中噗呉） */
+    font-size: 20px; /* 圖標大小為 20px */
+}
+
+/* ==================== Box3 容器樣式 ==================== */
+.box1 .box3{
+    display: flex; /* 使用 Flexbox 布局 */
+}
+/* ==================== 提交按鈕樣式 ==================== */
+.box1 .box5{
+    width: 100%; /* 按鈕寬度為父容器的 100% */
+    height: 45px; /* 按鈕高度為 45px */
+    background-color: aqua; /* 背景顏色為水藍色 */
+    border: none; /* 移除邊框 */
+    outline: none; /* 移除默認的膨減訪源 */
+    border-radius: 40px; /* 邊角彈性半徑為 40px */
+    font-size: 16px; /* 文字大小 */
+    color: rgb(208, 24, 24); /* 文字顏色為深紅色 */
+    font-weight: 500; /* 文字粗細為 500 (中等粗) */
+}
+
+/* ==================== 創建帳號按鈕樣式 ==================== */
+.box1 .box6{
+    width: 100%; /* 按鈕寬度為父容器的 100% */
+    height: 45px; /* 按鈕高度為 45px */
+    background-color: #FF6B9D; /* 背景顏色為粉紅色 */
+    border: none; /* 移除邊框 */
+    outline: none; /* 移除默認的膨減訪源 */
+    border-radius: 40px; /* 邊角彈性半徑為 40px */
+    font-size: 16px; /* 文字大小 */
+    color: white; /* 文字顏色為白色 */
+    font-weight: 500; /* 文字粗細為 500 (中等粗) */
+    margin-top: 10px; /* 上外歫距 10px (與登入按鈕的距離) */
+    cursor: pointer; /* 滑鼠遊標變為手指 */
+    transition: background-color 0.3s ease; /* 背景顏色過渡效果 0.3秒 */
+}
+
+/* 創建帳號按鈕懸停狀態 */
+.box1 .box6:hover{
+    background-color: #FF5185; /* 懸停時背景色變深 */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
