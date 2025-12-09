@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>創建帳號</title>
+    <link rel="stylesheet" href="../login/login.css">
+    <link rel="stylesheet" href="createAct.css">
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+<div class="box1">
+    <h1>創建帳號</h1>
+    <form id="registerForm">
+        <!-- 帳號輸入框 -->
+        <div class="box2">
+            <input type="text" id="username" placeholder="請輸入帳號" required>
+            <i class='bx bxs-user'></i>
+        </div>
+
+        <!-- 密碼輸入框 -->
+        <div class="box2">
+            <input type="password" id="password" placeholder="請輸入密碼" required>
+            <i class='bx bxs-lock-alt'></i>
+        </div>
+
+        <!-- 確認密碼輸入框 -->
+        <div class="box2">
+            <input type="password" id="confirmPassword" placeholder="請確認密碼" required>
+            <i class='bx bxs-lock-alt'></i>
+        </div>
+
+        <!-- 電子郵件輸入框 -->
+        <div class="box2">
+            <input type="email" id="email" placeholder="請輸入電子郵件" required>
+            <i class='bx bxs-envelope'></i>
+        </div>
+
+        <!-- 性別選擇 -->
+        <div class="box3">
+            男: <input type="radio" name="gender" value="男" required>
+            女: <input type="radio" name="gender" value="女" required>
+        </div>
+
+        <!-- 按鈕群組 -->
+        <div class="box4">
+            <button type="button" class="box5 btn-back" id="btnBack">返回登入</button>
+            <button type="submit" class="box5 btn-register">創建帳號</button>
+        </div>
+    </form>
+</div>
+
+<script src="createAct.js"></script>
+</body>
+</html>

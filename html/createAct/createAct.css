@@ -1,0 +1,33 @@
+/* 創建帳號頁面特殊樣式 */
+.box1 h1 {
+    color: #FF6B9D; /* 標題顏色改為粉紅色 */
+}
+
+.box4 {
+    display: flex;
+    gap: 10px; /* 兩個按鈕之間的距離 */
+}
+
+.box4 button {
+    flex: 1; /* 平均分配按鈕寬度 */
+}
+
+/* 返回按鈕樣式 */
+.btn-back {
+    background-color: #9B9B9B !important; /* 灰色背景 */
+    color: white !important;
+}
+
+.btn-back:hover {
+    background-color: #777777 !important;
+}
+
+/* 註冊按鈕樣式 */
+.btn-register {
+    background-color: aqua !important;
+    color: rgb(208, 24, 24) !important;
+}
+
+.btn-register:hover {
+    background-color: #00CCCC !important;
+}
